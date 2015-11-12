@@ -3,6 +3,8 @@
 import sqlite3
 import sys
 import csv
+import re
+import pickle
 
 print('Creating fighters dictionary from csv file')
 fighters = dict()
@@ -19,6 +21,7 @@ with open('fighters.csv') as csvfile:
 print('Testing for duplicate aliases')
 alias_list = []
 for name in fighters:
+    fighters[name]['nameentries'] = 0
     if fighters[name]['aliases']:
         for alias in fighters[name]['aliases']:
             if alias in alias_list:
@@ -29,31 +32,25 @@ for name in fighters:
 print('Connecting to database')
 conn = sqlite3.connect('databases/mma.db')
 
+print('Getting entries')
+query = "SELECT selftext FROM posts WHERE self IS '1' OR self IS NULL"
+cursor = conn.execute(query)
+rows = cursor.fetchall()
+print('Got {} entries'.format((len(rows))))
+
 i = 1
 for name in fighters:
     print('Processing fighter {} of {}'.format(i, len(fighters)))
-    query = "SELECT selftext " \
-            "FROM posts " \
-            "WHERE idstr LIKE 't1_%' " \
-            "AND (selftext LIKE '%{}%'".format(name)
-
-    if fighters[name]['aliases']:
-        for alias in fighters[name]['aliases']:
-            query = query + " OR selftext LIKE '%" + alias + "%'"
-    query += ')'
-    print('Query:' + query)
-    cursor = conn.execute(query)
-    fighters[name]['nameentries'] = len(cursor.fetchall())
     i += 1
-
-#skipped = []
-#for entry in cursor:
-#    try:
-#        #print(entry)
-#        sys.stdout.buffer.write(entry[0].encode('utf-8'))
-#    except:
-#        skipped.append(entry)
-#        continue
+    pattern = r'\b{}+\b'.format(name)
+    for row in rows:
+        string = row[0]
+        if re.search(pattern, string):
+            fighters[name]['nameentries'] += 1
 
 for name in fighters:
     print('{}: {}'.format(name, fighters[name]['nameentries']))
+
+with open('fighters.pickle', 'wb') as f:
+    # Pickle the dictionary using the highest protocol available.
+    pickle.dump(fighters, f, pickle.HIGHEST_PROTOCOL)
