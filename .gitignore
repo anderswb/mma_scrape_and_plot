@@ -1,0 +1,8 @@
+.idea/workspace.xml 
+/**/__pycache__
+*.bak
+/build
+/dist
+/*egg-info
+*.pyc
+*.db
