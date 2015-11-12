@@ -17,8 +17,8 @@ Semmy Schilt;Heavyweight;Semmy, Schilt
 Alistair Overeem;Heavyweight;Alistair, Overeem
 Ken Shamrock;Heavyweight;
 Mark Hunt;Heavyweight;Hunt
-Antonio Silva;Heavyweight;Antonio, Silva
-Masakatsu Funaki;Heavyweight;Masakatsu, Funaki
+Antonio Silva;Heavyweight;
+Masakatsu Funaki;Heavyweight;Funaki
 Dan Severn;Heavyweight;Severn
 Daniel Cormier;Heavyweight, Light heavyweight;DC, D.C., D.C
 Travis Browne;Heavyweight;Browne
@@ -36,16 +36,16 @@ Forrest Griffin;Light Heavyweight;Forrest, Griffin
 Vitor Belfort;Light Heavyweight;Vitor, Belfort
 Alexander Gustafsson;Light Heavyweight;Alexander, Gustafsson
 Frank Shamrock;Light Heavyweight;
-Ricardo Arona;Light Heavyweight;Ricardo, Arona
+Ricardo Arona;Light Heavyweight;Arona
 Anthony Johnson;Light Heavyweight;Rumble
 Phil Davis;Light Heavyweight;
 Ryan Bader;Light Heavyweight;Bader
-Yuki Kondo;Light Heavyweight;Yuki, Kondo
+Yuki Kondo;Light Heavyweight;
 Guy Mezger;Light Heavyweight;Mezger
 Paulo Filho;Light Heavyweight;Paulo, Filho
 Renato Sobral;Light Heavyweight;Renato, Sobral
 Gegard Mousasi;Light Heavyweight;Gegard, Mousasi
-Anderson Silva;Middleweight;Anderson, Silva
+Anderson Silva;Middleweight;Anderson
 Chris Weidman;Middleweight;Chris, Weidman, The Chris
 Dan Henderson;Middleweight;Henderson, Hendo
 Rich Franklin;Middleweight;Franklin
@@ -67,7 +67,7 @@ Demian Maia;Middleweight, Welterweight;Demian, Maia
 Dave Menne;Middleweight, Welterweight;Menne
 Michael Bisping;Middleweight;Bisping
 Jorge Santiago;Middleweight;Jorge, Santiago
-Jake Shields;Middleweight, Welterweight;Jake, Shields
+Jake Shields;Middleweight, Welterweight;Shields
 Hector Lombard;Middleweight;Hector, Lombard
 Mark Munoz;Middleweight;Munoz
 Georges St. Pierre;Welterweight;Georges, Pierre, GSP
@@ -79,26 +79,26 @@ Nick Diaz;Welterweight;Nick
 B.J. Penn;Welterweight, Lightweight;BJ, Penn, B.J, B. J
 Pat Miletich;Welterweight;Pat, Miletich
 Rory MacDonald;Welterweight;Rory, MacDonald
-Josh Koscheck;Welterweight;Josh, Koscheck
+Josh Koscheck;Welterweight;Koscheck
 Thiago Alves;Welterweight;Thiago, Alves
 Sean Sherk;Welterweight;Sean, Sherk
 Hayato Sakurai;Welterweight;Hayato, Sakurai
 Diego Sanchez;Welterweight;Diego, Sanchez
 Karo Parisyan;Welterweight;Karo, Parisyan
-Jake Ellenberger;Welterweight;Jake, Ellenberger
+Jake Ellenberger;Welterweight;Ellenberger
 Matt Serra;Welterweight;Serra
 Martin Kampmann;Welterweight;Martin, Kampmann
 Dennis Hallman;Welterweight;Dennis, Hallman
-Tetsuji Kato;Welterweight;Tetsuji, Kato
+Tetsuji Kato;Welterweight;Tetsuji
 Ben Askren;Welterweight;Ben, Askren
 Frankie Edgar;Lightweight;Frankie, Edgar
 Ben Henderson;Lightweight;
 Takanori Gomi;Lightweight;Takanori, Gomi
 Gilbert Melendez;Lightweight;Gilbert, Melendez
-Shinya Aoki;Lightweight;Shinya, Aoki
+Shinya Aoki;Lightweight;Aoki
 Anthony Pettis;Lightweight;Anthony, Pettis
 Rafael dos Anjos;Lightweight;Rafael, Anjos, JDS
-Eddie Alvarez;Lightweight;Eddie, Alvarez
+Eddie Alvarez;Lightweight;Alvarez
 Vitor Ribeiro;Lightweight;Ribeiro
 Joachim Hansen;Lightweight;Joachim, Hansen
 Tatsuya Kawajiri;Lightweight;Tatsuya, Kawajiri
@@ -121,24 +121,24 @@ Alexandre Franca Nogueira;Featherweight;
 Mike Thomas Brown;Featherweight;Mike, Brown
 Hatsu Hioki;Featherweight;Hatsu, Hioki
 Chad Mendes;Featherweight;Chad, Mendes
-Pat Curran;Featherweight;Pat, Curran
-Noboru Asahi;Featherweight;Noboru, Asahi
-Masakazu Imanari;Featherweight;Masakazu, Imanari
+Pat Curran;Featherweight;
+Noboru Asahi;Featherweight;Asahi
+Masakazu Imanari;Featherweight,Bantamweight;Imanari
 Patricio Freire;Featherweight;Patricio, Freire
 Frankie Edgar;Featherweight;Frankie, Edgar
 Conor McGregor;Featherweight;Conor, McGregor
-Ricardo Lamas;Featherweight;Ricardo, Lamas
-Jeff Curran;Featherweight;Jeff, Curran
+Ricardo Lamas;Featherweight;Lamas
+Jeff Curran;Featherweight;
 Cub Swanson;Featherweight;Cub, Swanson
-Marlon Sandro;Featherweight;Marlon, Sandro
+Marlon Sandro;Featherweight;Sandro
 Yoshiro Maeda;Featherweight;Yoshiro, Maeda
-Hiroyuki Takaya;Featherweight;Hiroyuki, Takaya
+Hiroyuki Takaya;Featherweight;Takaya
 Mark Hominick;Featherweight;Hominick
 Naoya Uematsu;Featherweight;Naoya, Uematsu
 Joao Roque;Featherweight;Joao, Roque
 Wagnney Fabiano;Featherweight;Wagnney, Fabiano
 Takeshi Inoue;Featherweight;Takeshi, Inoue
-Antonio Carvalho;Featherweight;Antonio, Carvalho
+Antonio Carvalho;Featherweight;Carvalho
 Daniel Straus;Featherweight;Daniel, Straus
 Renan Barao;Bantamweight;Renan, Barao
 Miguel Torres;Bantamweight;Miguel, Torres
@@ -151,66 +151,66 @@ Ryota Matsune;Bantamweight;Ryota, Matsune
 Joseph Benavidez;Bantamweight, Flyweight;Joseph, Benavidez
 Eduardo Dantas;Bantamweight;Eduardo, Dantas
 Masahiro Oishi;Bantamweight;Masahiro, Oishi
-Eddie Wineland;Bantamweight;Eddie, Wineland
-Masakatsu Ueda;Bantamweight;Masakatsu, Ueda
+Eddie Wineland;Bantamweight;Wineland
+Masakatsu Ueda;Bantamweight;Ueda
 Chase Beebe;Bantamweight;Chase, Beebe
 Marcos Galvao;Bantamweight;Marcos, Galvao
 Akitoshi Hokazono;Bantamweight;Akitoshi, Hokazono
 Kazuhiro Sakamoto;Bantamweight;Kazuhiro, Sakamoto
 Kentaro Imaizumi;Bantamweight;Kentaro, Imaizumi
-Masakazu Imanari;Bantamweight;Masakazu, Imanari
-Marlon Moraes;Bantamweight;Marlon, Moraes
+Marlon Moraes;Bantamweight;Moraes
 Kenichi Tanaka;Bantamweight;Kenichi, Tanaka
 Rani Yahya;Bantamweight;Rani, Yahya
-Antonio Banuelos;Bantamweight;Antonio, Banuelos
+Antonio Banuelos;Bantamweight;Banuelos
 Raphael Assuncao;Bantamweight;Assuncao
 Hisao Ikeda;Bantamweight;Hisao, Ikeda
 Demetrious Johnson;Flyweight;Demetrious, Johnson
 Yasuhiro Urushitani;Flyweight;Yasuhiro, Urushitani
 Mamoru Yamaguchi;Flyweight;Mamoru, Yamaguchi
 Shinichi Kojima;Flyweight;Shinichi, Kojima
-Jussier da Silva;Flyweight;Jussier, Silva
+Jussier da Silva;Flyweight;
 Jin Akimoto;Flyweight;Jin, Akimoto
 Ian McCall;Flyweight;Ian, McCall
-John Dodson;Flyweight;John, Dodson
-Yuki Shojo;Flyweight, Strawweight;Yuki, Shojo
+John Dodson;Flyweight;Dodson
+Yuki Shojo;Flyweight, Strawweight;Shojo
 Ryuichi Miki;Flyweight;Ryuichi, Miki
-Alexis Vila;Flyweight;Alexis, Vila
-Junji Ikoma;Flyweight, Strawweight;Junji, Ikoma
+Alexis Vila;Flyweight;Vila
+Junji Ikoma;Flyweight, Strawweight;Ikoma
 Masatoshi Abe;Flyweight;Masatoshi, Abe
 Homare Kuboyama;Flyweight;Homare, Kuboyama
 Setsu Iguchi;Flyweight;Setsu, Iguchi
-Josh Sampo;Flyweight;Josh, Sampo
+Josh Sampo;Flyweight;Sampo
 Masaaki Sugawara;Flyweight;Masaaki, Sugawara
 Robson Moura;Flyweight;Robson, Moura
 Kiyotaka Shimizu;Flyweight;Kiyotaka, Shimizu
 Zach Makovsky;Flyweight;Zach, Makovsky
 Takeyasu Hirono;Flyweight;Takeyasu, Hirono
-John Moraga;Flyweight;John, Moraga
+John Moraga;Flyweight;Moraga
 Mitsuhisa Sunabe;Flyweight, Strawweight;Mitsuhisa, Sunabe
 Daiji Takahashi;Flyweight;Daiji, Takahashi
 Rambaa Somdet;Strawweight;Rambaa, Somdet
-Shinya Murofushi;Strawweight;Shinya, Murofushi
+Shinya Murofushi;Strawweight;Murofushi
 Yoshitaka Naito;Strawweight;Yoshitaka, Naito
 Mikihito Yamagami;Strawweight;Mikihito, Yamagami
 Atsushi Takeuchi;Strawweight;Atsushi, Takeuchi
-Noboru Tahara;Strawweight;Noboru, Tahara
-Junji Ito;Strawweight;Junji, Ito
+Noboru Tahara;Strawweight;Tahara
+Junji Ito;Strawweight;Ito
+Junji Ito;Strawweight;Ito
 Rey Docyogen;Strawweight;Rey, Docyogen
-Takehiro Harusaki;Strawweight;Takehiro, Harusaki
-Hiroyuki Abe;Strawweight;Hiroyuki, Abe
+Takehiro Harusaki;Strawweight;Harusaki
+Hiroyuki Abe;Strawweight;
 Yuichiro Yajima;Strawweight;Yuichiro, Yajima
 Yukitaka Musashi;Strawweight;Yukitaka, Musashi
 Ryosuke Tanuma;Strawweight;Ryosuke, Tanuma
 Tadaaki Yamamoto;Strawweight;Tadaaki, Yamamoto
-Takehiro Ishii;Strawweight;Takehiro, Ishii
+Takehiro Ishii;Strawweight;Ishii
 Takuya Eizumi;Strawweight;Takuya, Eizumi
-Masakazu Utsugi;Strawweight;Masakazu, Utsugi
+Masakazu Utsugi;Strawweight;Utsugi
 Ryo Hatta;Strawweight;Ryo, Hatta
 Kento Kanbe;Strawweight;Kento, Kanbe
 Yusei Shimokawa;Strawweight;Yusei, Shimokawa
-Masayoshi Kato;Strawweight;Masayoshi, Kato
-Ken Asuka;Strawweight;Ken, Asuka
+Masayoshi Kato;Strawweight;Masayoshi
+Ken Asuka;Strawweight;Asuka
 Ronda Rousey;Women;Ronda, Rousey
 Yuka Tsuji;Women;Yuka, Tsuji
 Cristiane Justino;Women;Cristiane, Justino
@@ -221,7 +221,7 @@ Sarah Kaufman;Women;Sarah, Kaufman
 Jennifer Howe;Women;Jennifer, Howe
 Miesha Tate;Women;Miesha, Tate
 Jessica Aguilar;Women;Jessica, Aguilar
-Alexis Davis;Women;Alexis, Davis
+Alexis Davis;Women;Davis
 Hisae Watanabe;Women;Hisae, Watanabe
 Roxanne Modafferi;Women;Roxanne, Modafferi
 Satoko Shinashi;Women;Satoko, Shinashi
@@ -232,7 +232,7 @@ Miku Matsumoto;Women;Miku, Matsumoto
 Laura DAuguste;Women;Laura, DAuguste
 Zoila Frausto;Women;Zoila, Frausto
 Hitomi Akano;Women;Hitomi, Akano
-Yuuki Kondo;Women;Yuuki, Kondo
+Yuuki Kondo;Women;Yuuki
 Takayo Hashi;Women;Takayo, Hashi
 Cat Zingano;Women;Cat, Zingano
 Seo Hee Ham;Women;Seo, Ham
