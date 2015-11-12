@@ -21,7 +21,7 @@ with open('fighters.csv') as csvfile:
 print('Testing for duplicate aliases')
 alias_list = []
 for name in fighters:
-    fighters[name]['nameentries'] = 0
+    fighters[name]['nameentries'] = []
     if fighters[name]['aliases']:
         for alias in fighters[name]['aliases']:
             if alias in alias_list:
@@ -33,23 +33,40 @@ print('Connecting to database')
 conn = sqlite3.connect('databases/mma.db')
 
 print('Getting entries')
-query = "SELECT selftext FROM posts WHERE self IS '1' OR self IS NULL"
+query = "SELECT created, selftext FROM posts WHERE self IS '1' OR self IS NULL"
 cursor = conn.execute(query)
 rows = cursor.fetchall()
 print('Got {} entries'.format((len(rows))))
 
-i = 1
+fighter_no = 1
 for name in fighters:
-    print('Processing fighter {} of {}'.format(i, len(fighters)))
-    i += 1
-    pattern = r'\b{}+\b'.format(name)
+    searchterms = [name]
+    if fighters[name]['aliases']:
+        for alias in fighters[name]['aliases']:
+            searchterms.append(alias)
+
+    print('Processing fighter {} of {}: {}. Search terms: {}'.format(fighter_no, len(fighters), name, searchterms))
+    fighter_no += 1
+
+    pattern = r'\b('
+    i = 0
+    for term in searchterms:
+        if i != 0:
+            pattern += '|'
+        pattern += term
+        i += 1
+    pattern += r')\b'
+    # print('Pattern: {}'.format(pattern))
+
     for row in rows:
-        string = row[0]
-        if re.search(pattern, string):
-            fighters[name]['nameentries'] += 1
+        created = row[0]
+        selftext = row[1]
+        if re.search(pattern, selftext):
+            fighters[name]['nameentries'].append(created)
+    print('Found {} nameentries'.format(len(fighters[name]['nameentries'])))
 
 for name in fighters:
-    print('{}: {}'.format(name, fighters[name]['nameentries']))
+    print('{}: {}'.format(name, len(fighters[name]['nameentries'])))
 
 with open('fighters.pickle', 'wb') as f:
     # Pickle the dictionary using the highest protocol available.
