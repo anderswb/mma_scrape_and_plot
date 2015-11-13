@@ -2,8 +2,8 @@ Fedor Emelianenko;Heavyweight;Fedor, Emelianenko
 Antonio Rodrigo Nogueira;Heavyweight, Light heavyweight;Minotauro, Big Nog
 Fabricio Werdum;Heavyweight;Fabricio, Werdum
 Cain Velasquez;Heavyweight;Cain, Velasquez
-Junior dos Santos;Heavyweight;Junior, Santos
-Randy Couture;Heavyweight;Couture
+Junior dos Santos;Heavyweight;JDS
+Randy Couture;Heavyweight, Light heavyweight;Couture
 Josh Barnett;Heavyweight;Barnett
 Andrei Arlovski;Heavyweight;Andrei, Arlovski
 Mirko Filipovic;Heavyweight;Mirko, Filipovic, Cro Cop
@@ -23,15 +23,14 @@ Dan Severn;Heavyweight;Severn
 Daniel Cormier;Heavyweight, Light heavyweight;DC, D.C., D.C
 Travis Browne;Heavyweight;Browne
 Jon Jones;Light Heavyweight;Jon Bones
-Chuck Liddell;Light Heavyweight;Liddell
+Chuck Liddell;Light Heavyweight;Liddell, Iceman
 Wanderlei Silva;Light Heavyweight;Wanderlei
 Quinton Jackson;Light Heavyweight;Rampage
-Mauricio Rua;Light Heavyweight;Mauricio, Rua
+Mauricio Rua;Light Heavyweight;Mauricio, Rua, Maurício
 Lyoto Machida;Light Heavyweight;Lyoto, Machida
 Rashad Evans;Light Heavyweight;Rashad, Evans
 Tito Ortiz;Light Heavyweight;Tito, Ortiz
-Dan Henderson;Light Heavyweight;Henderson
-Randy Couture;Light Heavyweight;Couture
+Dan Henderson;Light Heavyweight, Middleweight;Henderson, Hendo
 Forrest Griffin;Light Heavyweight;Forrest, Griffin
 Vitor Belfort;Light Heavyweight;Vitor, Belfort
 Alexander Gustafsson;Light Heavyweight;Alexander, Gustafsson
@@ -42,12 +41,11 @@ Phil Davis;Light Heavyweight;
 Ryan Bader;Light Heavyweight;Bader
 Yuki Kondo;Light Heavyweight;
 Guy Mezger;Light Heavyweight;Mezger
-Paulo Filho;Light Heavyweight;Paulo, Filho
+Paulo Filho;Light Heavyweight, Middleweight;Paulo, Filho
 Renato Sobral;Light Heavyweight;Renato, Sobral
-Gegard Mousasi;Light Heavyweight;Gegard, Mousasi
+Gegard Mousasi;Light Heavyweight, Middleweight;Gegard, Mousasi
 Anderson Silva;Middleweight;Anderson
 Chris Weidman;Middleweight;Chris, Weidman, The Chris
-Dan Henderson;Middleweight;Henderson, Hendo
 Rich Franklin;Middleweight;Franklin
 Nate Marquardt;Middleweight;Marquardt
 Chael Sonnen;Middleweight;Chael, Sonnen
@@ -55,12 +53,10 @@ Ronaldo Souza;Middleweight;Souza
 Murilo Bustamante;Middleweight;Murilo, Bustamante
 Yushin Okami;Middleweight;Yushin, Okami
 Luke Rockhold;Middleweight;Luke, Rockhold
-Paulo Filho;Middleweight;Paulo, Filho
 Matt Lindland;Middleweight;Lindland
 Kazuo Misaki;Middleweight;Kazuo, Misaki
 Ricardo Almeida;Middleweight;Almeida
 Kiuma Kunioku;Middleweight;Kiuma, Kunioku
-Gegard Mousasi;Middleweight;Gegard, Mousasi
 Robbie Lawler;Middleweight, Welterweight;Robbie, Lawler
 Evan Tanner;Middleweight;Evan, Tanner
 Demian Maia;Middleweight, Welterweight;Demian, Maia
@@ -75,29 +71,29 @@ Matt Hughes;Welterweight;Hughes
 Johny Hendricks;Welterweight;Johny, Hendricks
 Carlos Condit;Welterweight;Carlos, Condit
 Jon Fitch;Welterweight;Fitch
-Nick Diaz;Welterweight;Nick
+Nick Diaz;Welterweight;
 B.J. Penn;Welterweight, Lightweight;BJ, Penn, B.J, B. J
 Pat Miletich;Welterweight;Pat, Miletich
 Rory MacDonald;Welterweight;Rory, MacDonald
 Josh Koscheck;Welterweight;Koscheck
 Thiago Alves;Welterweight;Thiago, Alves
-Sean Sherk;Welterweight;Sean, Sherk
+Sean Sherk;Welterweight, Lightweight;Sherk
 Hayato Sakurai;Welterweight;Hayato, Sakurai
 Diego Sanchez;Welterweight;Diego, Sanchez
 Karo Parisyan;Welterweight;Karo, Parisyan
 Jake Ellenberger;Welterweight;Ellenberger
 Matt Serra;Welterweight;Serra
 Martin Kampmann;Welterweight;Martin, Kampmann
-Dennis Hallman;Welterweight;Dennis, Hallman
+Dennis Hallman;Welterweight;Hallman
 Tetsuji Kato;Welterweight;Tetsuji
 Ben Askren;Welterweight;Ben, Askren
-Frankie Edgar;Lightweight;Frankie, Edgar
+Frankie Edgar;Lightweight, Featherweight;Frankie, Edgar
 Ben Henderson;Lightweight;
 Takanori Gomi;Lightweight;Takanori, Gomi
 Gilbert Melendez;Lightweight;Gilbert, Melendez
 Shinya Aoki;Lightweight;Aoki
 Anthony Pettis;Lightweight;Anthony, Pettis
-Rafael dos Anjos;Lightweight;Rafael, Anjos, JDS
+Rafael dos Anjos;Lightweight;Rafael, Anjos, RDS
 Eddie Alvarez;Lightweight;Alvarez
 Vitor Ribeiro;Lightweight;Ribeiro
 Joachim Hansen;Lightweight;Joachim, Hansen
@@ -109,23 +105,21 @@ Caol Uno;Lightweight;Caol, Uno
 Marcus Aurelio;Lightweight;Marcus, Aurelio
 Kenny Florian;Lightweight;Kenny, Florian
 Rumina Sato;Lightweight;Rumina, Sato
-Yves Edwards;Lightweight;Yves, Edwards
+Yves Edwards;Lightweight;Edwards
 Michael Chandler;Lightweight;Michael, Chandler
 Gesias Cavalcante;Lightweight;Gesias, Cavalcante
 Dokonjonosuke Mishima;Lightweight;Dokonjonosuke, Mishima
-Sean Sherk;Lightweight;Sean, Sherk
 Nate Diaz;Lightweight;Nate
-Jose Aldo;Featherweight;Jose, Aldo
-Urijah Faber;Featherweight;Urijah, Faber
+Jose Aldo;Featherweight;Jose, Aldo, José
+Urijah Faber;Featherweight, Bantamweight;Urijah, Faber
 Alexandre Franca Nogueira;Featherweight;
 Mike Thomas Brown;Featherweight;Mike, Brown
 Hatsu Hioki;Featherweight;Hatsu, Hioki
 Chad Mendes;Featherweight;Chad, Mendes
 Pat Curran;Featherweight;
 Noboru Asahi;Featherweight;Asahi
-Masakazu Imanari;Featherweight,Bantamweight;Imanari
+Masakazu Imanari;Featherweight, Bantamweight;Imanari
 Patricio Freire;Featherweight;Patricio, Freire
-Frankie Edgar;Featherweight;Frankie, Edgar
 Conor McGregor;Featherweight;Conor, McGregor
 Ricardo Lamas;Featherweight;Lamas
 Jeff Curran;Featherweight;
@@ -140,12 +134,11 @@ Wagnney Fabiano;Featherweight;Wagnney, Fabiano
 Takeshi Inoue;Featherweight;Takeshi, Inoue
 Antonio Carvalho;Featherweight;Carvalho
 Daniel Straus;Featherweight;Daniel, Straus
-Renan Barao;Bantamweight;Renan, Barao
+Renan Barao;Bantamweight;Renan, Barao, Barão
 Miguel Torres;Bantamweight;Miguel, Torres
 Dominick Cruz;Bantamweight;Dominick, Cruz
 T.J. Dillashaw;Bantamweight;T.J, Dillashaw
 Brian Bowles;Bantamweight;Brian, Bowles
-Urijah Faber;Bantamweight;Urijah, Faber
 Bibiano Fernandes;Bantamweight;Bibiano, Fernandes
 Ryota Matsune;Bantamweight;Ryota, Matsune
 Joseph Benavidez;Bantamweight, Flyweight;Joseph, Benavidez
@@ -153,7 +146,7 @@ Eduardo Dantas;Bantamweight;Eduardo, Dantas
 Masahiro Oishi;Bantamweight;Masahiro, Oishi
 Eddie Wineland;Bantamweight;Wineland
 Masakatsu Ueda;Bantamweight;Ueda
-Chase Beebe;Bantamweight;Chase, Beebe
+Chase Beebe;Bantamweight;Beebe
 Marcos Galvao;Bantamweight;Marcos, Galvao
 Akitoshi Hokazono;Bantamweight;Akitoshi, Hokazono
 Kazuhiro Sakamoto;Bantamweight;Kazuhiro, Sakamoto
@@ -195,14 +188,13 @@ Mikihito Yamagami;Strawweight;Mikihito, Yamagami
 Atsushi Takeuchi;Strawweight;Atsushi, Takeuchi
 Noboru Tahara;Strawweight;Tahara
 Junji Ito;Strawweight;Ito
-Junji Ito;Strawweight;Ito
 Rey Docyogen;Strawweight;Rey, Docyogen
 Takehiro Harusaki;Strawweight;Harusaki
 Hiroyuki Abe;Strawweight;
 Yuichiro Yajima;Strawweight;Yuichiro, Yajima
 Yukitaka Musashi;Strawweight;Yukitaka, Musashi
 Ryosuke Tanuma;Strawweight;Ryosuke, Tanuma
-Tadaaki Yamamoto;Strawweight;Tadaaki, Yamamoto
+Tadaaki Yamamoto;Strawweight;Tadaaki
 Takehiro Ishii;Strawweight;Ishii
 Takuya Eizumi;Strawweight;Takuya, Eizumi
 Masakazu Utsugi;Strawweight;Utsugi
@@ -229,10 +221,31 @@ Barb Honchak;Women;Barb, Honchak
 Amanda Buckner;Women;Amanda, Buckner
 Ayaka Hamasaki;Women;Ayaka, Hamasaki
 Miku Matsumoto;Women;Miku, Matsumoto
-Laura DAuguste;Women;Laura, DAuguste
+Laura D'Auguste;Women;Laura, D'Auguste
 Zoila Frausto;Women;Zoila, Frausto
 Hitomi Akano;Women;Hitomi, Akano
 Yuuki Kondo;Women;Yuuki
 Takayo Hashi;Women;Takayo, Hashi
 Cat Zingano;Women;Cat, Zingano
 Seo Hee Ham;Women;Seo, Ham
+Joe Rogan;Other;Rogan
+Dana White;Other;Dana
+Sage Northcutt;Lightweight;Sage, Northcutt
+Joanna Jedrzejczyk;;J?drzejczyk, Joanna, Jedrzejczyk
+Maurice Smith;Heavyweight;
+Kevin Randleman;Heavyweight;Randleman
+Ricco Rodriguez;Heavyweight;
+Shane Carwin;Heavyweight;Carwin
+Carlos Newton;Welterweight;
+Benson Henderson;Lightweight;Benson
+Carla Esparza;Women;Esparza
+Steve Jennum;;Jennum
+Oleg Taktarov;;Oleg, Taktarov
+Marco Ruas;;
+Don Frye;;Frye
+Jerry Bohlander;;Bohlander
+Mark Kerr;;Kerr
+Kevin Jackson;;
+Kazushi Sakuraba;;Sakuraba
+Kenichi Yamamoto;;
+FreeNickDiaz;Other;freenickdiaz
